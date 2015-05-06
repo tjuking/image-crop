@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>image-crop示例</title>
+    <link rel="stylesheet" href="../src/image-crop.css"/>
+    <style>
+        .picture-width, .picture-height{
+            margin: 50px auto 0;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <script src="../src/image-crop.js"></script>
+</head>
+<body>
+    <div class="picture-width ui-img-crop">
+        <img src="width.jpg" onload="imageCrop(this);"/>
+    </div>
+    <div class="picture-height ui-img-crop">
+        <img src="height.png" onload="imageCrop(this);"/>
+    </div>
+</body>
+</html>
