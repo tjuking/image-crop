@@ -8,6 +8,7 @@
 
 ### 使用示例
 
+```html
 	<!-- 引入资源 -->
 	<link rel="stylesheet" href="../src/image-crop.css"/>
 	<script src="../src/image-crop.js"></script>
@@ -28,4 +29,4 @@
     <div class="picture-height ui-img-crop">
         <img src="height.png" onload="imageCrop(this);"/>
     </div>
-   
+```   
